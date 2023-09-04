@@ -28,7 +28,7 @@
    ```sh
    echo "ansadmin ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
    ```
-1. Using key-based authentication is advised. If you are still at the learning stage use password-based authentication (on Control node and Managed host)
+1. Using key-based authentication is advised. If you are still at the learning stage use password-based authentication (on Control node and Managed hosts)
    ```sh 
    # sed command replaces "PasswordAuthentication no to yes" without editing file 
     sed -ie 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
